@@ -9,7 +9,7 @@ html{
 /* Navbar */
 .navbar{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     position: sticky;
@@ -115,7 +115,7 @@ html{
 }
 
 /* Recent Articles */
-#my articles{
+#myarticles{
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.9);
