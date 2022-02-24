@@ -93,6 +93,7 @@ html{
 #about{
     display: flex;
     flex-direction: column;
+    background-color: gray;
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
@@ -116,10 +117,10 @@ html{
 }
 
 /* My Articles */
-#myarticles{
+#articles{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(54, 5, 231, 0.9);
     color: white;
     align-items: center;
     padding: 20px;
@@ -128,18 +129,19 @@ html{
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     box-sizing: border-box;
 }
 .gallery img{
     width: 360px;
-    height: 240px;
+    height: 450px;
     margin: 10px;
 }
 /* Skills */
 #skills{
     display: flex;
     flex-direction: column;
+    background-color: white;
     padding: 20px;
 }
 .row{display: flex;
@@ -150,8 +152,8 @@ html{
 .box{
     display: flex;
     flex-direction: column;
-    width: 359px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     border: 1px solid black;
     margin: 10px;
     align-items: center;
@@ -171,7 +173,7 @@ html{
 .box img{
     width: 80px;
     height: 80px;
-    background-color: black;
+    background-color: white;
     padding: 10px;
 }
 
@@ -180,8 +182,8 @@ html{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: blue;
+    background-color: gray;
+    color: white;
     padding: 20px;
 }
 .form{
