@@ -4,37 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="table.css">
 </head>
 <body>
-    <nav></nav>
-    <li>THE LAM-LIM STANDARD</li>
-    <li>"for all things Lam-Lim"</li>
-    <main>
+    <nav class="navbar">
+        <u1>
+            <li><a href="about me">About Me</a></li>
+            <li><a href="my Articles">My Articles</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="contact ">Contact Me</a></li>
 
-<section>
-<img src="" alt="">
-<li>About</li>
-<h1>LIVE
-    LAUGH
-    LAM</h1>
-</section>
+        </u1>
 
-<section>
-    <header>Recent Aricles</header>
-<h2>Article 1</h2>
-<h3>Article 2</h3>
-<h4>Article 3</h4>
-</section>
 
-    <section>
-<header>More articles</header>
-        <h5>Article 1</h5>
-        <h6>Article 2</h6>
-        <h7>Article 3</h7>
+    </nav>
+
+    <Section id="home">
+        <div class="main">
+            <h1 class="headings"> THE LAM-LIM STANDARD </h1>
+            <button class="btn">
+                Welcome to The LAM
+            </button>
+
+        </div>
+    </Section>
+
+    <section id="about">
+        <div id="pic">
+            <h1 class="headings">ABOUT ME</h1>
+            <img src="" alt="">
+            <div id="intro">
+                <h2>Lam-Lim Toshin</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ipsa esse? Nesciunt sequi, officia consectetur cum aut enim quod amet quisquam asperiores nulla fuga sunt accusamus porro eligendi dolor eius.</p>
+            </div>
+        
+        </div>
     </section>
 
-    </main>
-    <h8>Copyright 2022</h8>
+    <section id="MY Articles">
+        <h1 class="Headings">ARTICLES WRITTEN</h1>
+        <div class="gallery">
+            <img src="image lam.jpg" alt="">
+            <img src="image lam.jpg" alt="">
+            <img src="image lam.jpg" alt="">
+        </div>
+
+    </section>
+
+    <section id="Services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="Services/png.png" alt="">
+                <h1 class="headings">Creative Writing</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolor excepturi modi rem id accusamus eos voluptatem assumenda, saepe autem distinctio quia nemo! Enim velit perspiciatis culpa dicta! Error, facere?</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">Full-Stack <br> Coding</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae quo repellat corrupti quod nobis similique vel nesciunt suscipit quam, architecto quisquam, exercitationem optio a, accusamus tempora quasi eaque doloribus voluptate?</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">Copywriting</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae quo repellat corrupti quod nobis similique vel nesciunt suscipit quam, architecto quisquam, exercitationem optio a, accusamus tempora quasi eaque doloribus voluptate?</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+        
+    </section>
+
 </body>
 </html>
