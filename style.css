@@ -137,7 +137,7 @@ html{
     margin: 10px;
 }
 /* Skills */
-#services{
+#skills{
     display: flex;
     flex-direction: column;
     padding: 20px;
